@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E825D3D21D4B31E0096859F /* LJCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E825D3B21D4B31E0096859F /* LJCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E825DA021D4BE960096859F /* LJCrashPrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 3E825D9F21D4BE960096859F /* LJCrashPrefixHeader.pch */; };
+		3E825DA421D4C4D50096859F /* LJCrashProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E825DA221D4C4D50096859F /* LJCrashProxy.h */; };
+		3E825DA521D4C4D50096859F /* LJCrashProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E825DA321D4C4D50096859F /* LJCrashProxy.m */; };
+		3E825DAA21D4C5710096859F /* LJCrashTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E825DA821D4C5710096859F /* LJCrashTool.h */; };
+		3E825DAB21D4C5710096859F /* LJCrashTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E825DA921D4C5710096859F /* LJCrashTool.m */; };
+		3E825DAF21D4D32D0096859F /* NSObject+Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E825DAD21D4D32D0096859F /* NSObject+Crash.h */; };
+		3E825DB021D4D32D0096859F /* NSObject+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E825DAE21D4D32D0096859F /* NSObject+Crash.m */; };
+		3EA44FBB21D6050300DA4CF6 /* NSString+Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA44FB921D6050300DA4CF6 /* NSString+Crash.h */; };
+		3EA44FBC21D6050300DA4CF6 /* NSString+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA44FBA21D6050300DA4CF6 /* NSString+Crash.m */; };
+		3EA44FBF21D607E200DA4CF6 /* NSMutableString+Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA44FBD21D607E200DA4CF6 /* NSMutableString+Crash.h */; };
+		3EA44FC021D607E200DA4CF6 /* NSMutableString+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA44FBE21D607E200DA4CF6 /* NSMutableString+Crash.m */; };
+		3EA44FC321D60B1C00DA4CF6 /* NSArray+Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA44FC121D60B1C00DA4CF6 /* NSArray+Crash.h */; };
+		3EA44FC421D60B1C00DA4CF6 /* NSArray+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA44FC221D60B1C00DA4CF6 /* NSArray+Crash.m */; };
+		3EA44FC721D60D7000DA4CF6 /* NSMutableArray+Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA44FC521D60D7000DA4CF6 /* NSMutableArray+Crash.h */; };
+		3EA44FC821D60D7000DA4CF6 /* NSMutableArray+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA44FC621D60D7000DA4CF6 /* NSMutableArray+Crash.m */; };
+		3EA44FCB21D60E9D00DA4CF6 /* NSDictionary+Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA44FC921D60E9D00DA4CF6 /* NSDictionary+Crash.h */; };
+		3EA44FCC21D60E9D00DA4CF6 /* NSDictionary+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA44FCA21D60E9D00DA4CF6 /* NSDictionary+Crash.m */; };
+		3EA44FCF21D60F0400DA4CF6 /* NSMutableDictionary+Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA44FCD21D60F0400DA4CF6 /* NSMutableDictionary+Crash.h */; };
+		3EA44FD021D60F0400DA4CF6 /* NSMutableDictionary+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA44FCE21D60F0400DA4CF6 /* NSMutableDictionary+Crash.m */; };
+		3EA44FD521D6129000DA4CF6 /* LJBugly.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA44FD321D6129000DA4CF6 /* LJBugly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA44FD621D6129000DA4CF6 /* LJBugly.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA44FD421D6129000DA4CF6 /* LJBugly.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E825D3821D4B31E0096859F /* LJCrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LJCrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E825D3B21D4B31E0096859F /* LJCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCrash.h; sourceTree = "<group>"; };
+		3E825D3C21D4B31E0096859F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E825D9C21D4BC5D0096859F /* LJCrashProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCrashProtocol.h; sourceTree = "<group>"; };
+		3E825D9F21D4BE960096859F /* LJCrashPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCrashPrefixHeader.pch; sourceTree = "<group>"; };
+		3E825DA221D4C4D50096859F /* LJCrashProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCrashProxy.h; sourceTree = "<group>"; };
+		3E825DA321D4C4D50096859F /* LJCrashProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCrashProxy.m; sourceTree = "<group>"; };
+		3E825DA821D4C5710096859F /* LJCrashTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCrashTool.h; sourceTree = "<group>"; };
+		3E825DA921D4C5710096859F /* LJCrashTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCrashTool.m; sourceTree = "<group>"; };
+		3E825DAD21D4D32D0096859F /* NSObject+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Crash.h"; sourceTree = "<group>"; };
+		3E825DAE21D4D32D0096859F /* NSObject+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Crash.m"; sourceTree = "<group>"; };
+		3EA44FB921D6050300DA4CF6 /* NSString+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Crash.h"; sourceTree = "<group>"; };
+		3EA44FBA21D6050300DA4CF6 /* NSString+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Crash.m"; sourceTree = "<group>"; };
+		3EA44FBD21D607E200DA4CF6 /* NSMutableString+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Crash.h"; sourceTree = "<group>"; };
+		3EA44FBE21D607E200DA4CF6 /* NSMutableString+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Crash.m"; sourceTree = "<group>"; };
+		3EA44FC121D60B1C00DA4CF6 /* NSArray+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Crash.h"; sourceTree = "<group>"; };
+		3EA44FC221D60B1C00DA4CF6 /* NSArray+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Crash.m"; sourceTree = "<group>"; };
+		3EA44FC521D60D7000DA4CF6 /* NSMutableArray+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Crash.h"; sourceTree = "<group>"; };
+		3EA44FC621D60D7000DA4CF6 /* NSMutableArray+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Crash.m"; sourceTree = "<group>"; };
+		3EA44FC921D60E9D00DA4CF6 /* NSDictionary+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Crash.h"; sourceTree = "<group>"; };
+		3EA44FCA21D60E9D00DA4CF6 /* NSDictionary+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Crash.m"; sourceTree = "<group>"; };
+		3EA44FCD21D60F0400DA4CF6 /* NSMutableDictionary+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Crash.h"; sourceTree = "<group>"; };
+		3EA44FCE21D60F0400DA4CF6 /* NSMutableDictionary+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Crash.m"; sourceTree = "<group>"; };
+		3EA44FD321D6129000DA4CF6 /* LJBugly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJBugly.h; sourceTree = "<group>"; };
+		3EA44FD421D6129000DA4CF6 /* LJBugly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJBugly.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E825D3521D4B31E0096859F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E825D2E21D4B31E0096859F = {
+			isa = PBXGroup;
+			children = (
+				3E825D3A21D4B31E0096859F /* LJCrash */,
+				3E825D3921D4B31E0096859F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E825D3921D4B31E0096859F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E825D3821D4B31E0096859F /* LJCrash.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E825D3A21D4B31E0096859F /* LJCrash */ = {
+			isa = PBXGroup;
+			children = (
+				3E825DA121D4BF010096859F /* Common */,
+				3E825DAC21D4D2D30096859F /* category */,
+				3E825D3C21D4B31E0096859F /* Info.plist */,
+			);
+			path = LJCrash;
+			sourceTree = "<group>";
+		};
+		3E825DA121D4BF010096859F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3E825D9F21D4BE960096859F /* LJCrashPrefixHeader.pch */,
+				3E825D9C21D4BC5D0096859F /* LJCrashProtocol.h */,
+				3E825D3B21D4B31E0096859F /* LJCrash.h */,
+				3EA44FD321D6129000DA4CF6 /* LJBugly.h */,
+				3EA44FD421D6129000DA4CF6 /* LJBugly.m */,
+				3E825DA221D4C4D50096859F /* LJCrashProxy.h */,
+				3E825DA321D4C4D50096859F /* LJCrashProxy.m */,
+				3E825DA821D4C5710096859F /* LJCrashTool.h */,
+				3E825DA921D4C5710096859F /* LJCrashTool.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3E825DAC21D4D2D30096859F /* category */ = {
+			isa = PBXGroup;
+			children = (
+				3E825DAD21D4D32D0096859F /* NSObject+Crash.h */,
+				3E825DAE21D4D32D0096859F /* NSObject+Crash.m */,
+				3EA44FB921D6050300DA4CF6 /* NSString+Crash.h */,
+				3EA44FBA21D6050300DA4CF6 /* NSString+Crash.m */,
+				3EA44FBD21D607E200DA4CF6 /* NSMutableString+Crash.h */,
+				3EA44FBE21D607E200DA4CF6 /* NSMutableString+Crash.m */,
+				3EA44FC121D60B1C00DA4CF6 /* NSArray+Crash.h */,
+				3EA44FC221D60B1C00DA4CF6 /* NSArray+Crash.m */,
+				3EA44FC521D60D7000DA4CF6 /* NSMutableArray+Crash.h */,
+				3EA44FC621D60D7000DA4CF6 /* NSMutableArray+Crash.m */,
+				3EA44FC921D60E9D00DA4CF6 /* NSDictionary+Crash.h */,
+				3EA44FCA21D60E9D00DA4CF6 /* NSDictionary+Crash.m */,
+				3EA44FCD21D60F0400DA4CF6 /* NSMutableDictionary+Crash.h */,
+				3EA44FCE21D60F0400DA4CF6 /* NSMutableDictionary+Crash.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E825D3321D4B31E0096859F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA44FBB21D6050300DA4CF6 /* NSString+Crash.h in Headers */,
+				3EA44FD521D6129000DA4CF6 /* LJBugly.h in Headers */,
+				3EA44FC321D60B1C00DA4CF6 /* NSArray+Crash.h in Headers */,
+				3E825DAA21D4C5710096859F /* LJCrashTool.h in Headers */,
+				3EA44FCF21D60F0400DA4CF6 /* NSMutableDictionary+Crash.h in Headers */,
+				3EA44FC721D60D7000DA4CF6 /* NSMutableArray+Crash.h in Headers */,
+				3E825DAF21D4D32D0096859F /* NSObject+Crash.h in Headers */,
+				3E825DA021D4BE960096859F /* LJCrashPrefixHeader.pch in Headers */,
+				3E825DA421D4C4D50096859F /* LJCrashProxy.h in Headers */,
+				3E825D3D21D4B31E0096859F /* LJCrash.h in Headers */,
+				3EA44FBF21D607E200DA4CF6 /* NSMutableString+Crash.h in Headers */,
+				3EA44FCB21D60E9D00DA4CF6 /* NSDictionary+Crash.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E825D3721D4B31E0096859F /* LJCrash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E825D4021D4B31E0096859F /* Build configuration list for PBXNativeTarget "LJCrash" */;
+			buildPhases = (
+				3E825D3321D4B31E0096859F /* Headers */,
+				3E825D3421D4B31E0096859F /* Sources */,
+				3E825D3521D4B31E0096859F /* Frameworks */,
+				3E825D3621D4B31E0096859F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJCrash;
+			productName = LJCrash;
+			productReference = 3E825D3821D4B31E0096859F /* LJCrash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E825D2F21D4B31E0096859F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Jeffry;
+				TargetAttributes = {
+					3E825D3721D4B31E0096859F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 3E825D3221D4B31E0096859F /* Build configuration list for PBXProject "LJCrash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E825D2E21D4B31E0096859F;
+			productRefGroup = 3E825D3921D4B31E0096859F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E825D3721D4B31E0096859F /* LJCrash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E825D3621D4B31E0096859F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E825D3421D4B31E0096859F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA44FC421D60B1C00DA4CF6 /* NSArray+Crash.m in Sources */,
+				3EA44FC821D60D7000DA4CF6 /* NSMutableArray+Crash.m in Sources */,
+				3EA44FCC21D60E9D00DA4CF6 /* NSDictionary+Crash.m in Sources */,
+				3EA44FD021D60F0400DA4CF6 /* NSMutableDictionary+Crash.m in Sources */,
+				3E825DB021D4D32D0096859F /* NSObject+Crash.m in Sources */,
+				3E825DA521D4C4D50096859F /* LJCrashProxy.m in Sources */,
+				3E825DAB21D4C5710096859F /* LJCrashTool.m in Sources */,
+				3EA44FBC21D6050300DA4CF6 /* NSString+Crash.m in Sources */,
+				3EA44FC021D607E200DA4CF6 /* NSMutableString+Crash.m in Sources */,
+				3EA44FD621D6129000DA4CF6 /* LJBugly.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E825D3E21D4B31E0096859F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E825D3F21D4B31E0096859F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E825D4121D4B31E0096859F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = E96MZH5CD9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = LJCrash/Common/LJCrashPrefixHeader.pch;
+				INFOPLIST_FILE = LJCrash/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jollycorp.JollyWalletSDK.LJCrash;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E825D4221D4B31E0096859F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = E96MZH5CD9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = LJCrash/Common/LJCrashPrefixHeader.pch;
+				INFOPLIST_FILE = LJCrash/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jollycorp.JollyWalletSDK.LJCrash;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E825D3221D4B31E0096859F /* Build configuration list for PBXProject "LJCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E825D3E21D4B31E0096859F /* Debug */,
+				3E825D3F21D4B31E0096859F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E825D4021D4B31E0096859F /* Build configuration list for PBXNativeTarget "LJCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E825D4121D4B31E0096859F /* Debug */,
+				3E825D4221D4B31E0096859F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E825D2F21D4B31E0096859F /* Project object */;
+}
