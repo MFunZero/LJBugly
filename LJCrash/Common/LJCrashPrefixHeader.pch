@@ -1,0 +1,23 @@
+//
+//  LJCrashPrefixHeader.pch
+//  LJCrash
+//
+//  Created by Jeffry on 2018/12/27.
+//  Copyright © 2018年 Jeffry. All rights reserved.
+//
+
+#ifndef LJCrashPrefixHeader_pch
+#define LJCrashPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define key_errorName        @"errorName"
+#define key_errorReason      @"errorReason"
+#define key_errorPlace       @"errorPlace"
+#define key_defaultToDo      @"defaultToDo"
+#define key_callStackSymbols @"callStackSymbols"
+#define key_exception        @"exception"
+#define KCrashIsiOS(version) ([[UIDevice currentDevice].systemVersion floatValue] >= version)
+
+#import "LJCrashTool.h"
+#endif /* LJCrashPrefixHeader_pch */
